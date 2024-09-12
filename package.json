@@ -12,6 +12,7 @@
     "@radix-ui/react-hover-card": "^1.1.1",
     "@react-three/drei": "^9.111.4",
     "@react-three/fiber": "^8.17.6",
+    "@tabler/icons-react": "^3.16.0",
     "clsx": "^2.1.1",
     "copy-to-clipboard": "^3.3.3",
     "framer-motion": "^11.3.30",

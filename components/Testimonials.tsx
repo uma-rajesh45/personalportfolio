@@ -11,7 +11,7 @@ import women2 from "@/public/woman2.jpg"
 
 export function Testimonials() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black-100  items-center justify-center relative overflow-hidden">
+    <div id="testimonials" className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black-100  items-center justify-center relative overflow-hidden">
         <p className="text-center text-4xl font-bold tracking-wider py-5 max-w-96 md:max-w-4xl">Here is what my <span className="text-purple">clients are saying!</span></p>
       <InfiniteMovingCards
         items={testimonials}

@@ -8,6 +8,8 @@ import MagicButton from "./ui/MagicButton";
 export function MyApproach() {
   return (
     <>
+        <h1 className="text-3xl font-bold font-sans tracking-wide mt-10">My <span className="text-purple">Approach</span></h1>
+
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black-100 max-w-7xl w-full gap-4 mx-auto">
         <Card title="Planning & Strategy" buttonText="Phase 1" desc="We'll collaborate to map out your website goals, target audience, and key functionalities.We'll discuss about the things such as site structure and content requirements etc.">
           <CanvasRevealEffect
