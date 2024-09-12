@@ -7,7 +7,6 @@ import { Testimonials } from "@/components/Testimonials";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import WorkExperienceCards from "@/components/WorkExperienceCards";
 import { navItems } from "@/data";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
