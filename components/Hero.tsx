@@ -32,7 +32,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wide mt-4 text-sm md:text-lg">
             Hi, I{"'"}m Uma, a Full-Stack Developer from india.
           </p>
-          <a href="#about">
+          <a href="#mywork">
           <MagicButton icon={<CgWorkAlt className="w-4 h-4"/>} position="right" title="See My Work" />
 
           </a>
