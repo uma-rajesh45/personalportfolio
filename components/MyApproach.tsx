@@ -70,7 +70,7 @@ const Card = ({
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="h-full w-full absolute inset-0"
+            className="hidden md:block h-full w-full absolute inset-0"
           >
             {children}
           </motion.div>

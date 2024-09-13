@@ -1,11 +1,10 @@
 
-import { cn } from "@/lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 import { gridItems } from "@/data";
  
-export default function Grid() {
+export default async function Grid() {
   return (
     <BentoGrid className="max-w-7xl relative">
       {gridItems.map((item, i) => (
