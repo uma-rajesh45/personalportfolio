@@ -27,7 +27,7 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
           className="max-w-[70vw] md:max-w-[60vw] text-center text-[40px] tracking-wider md:text-5xl! lg:text-6xl!"
-          words="Transforming Vision Into a Powerful, Fully Customized Digital Solution."
+          words="Transforming Your Vision Into a Powerful, Fully Customized Digital Solution."
           />
           <p className="text-center md:tracking-wide mt-4 text-sm md:text-lg">
             Hi, I{"'"}m Uma, a Full-Stack Developer from india.
