@@ -10,7 +10,7 @@ import { navItems } from "@/data";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center bg-black-100 mx-auto md:px-10 px-5 overflow-hidden relative">
+    <main className="flex flex-col justify-center items-center bg-black-100 dark:text-white mx-auto md:px-10 px-5 overflow-hidden relative">
       <div className="max-w-7xl w-full">
         <FloatingNav
         navItems={navItems}
