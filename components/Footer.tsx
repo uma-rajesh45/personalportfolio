@@ -5,7 +5,7 @@ import { SocialMedia } from './SocialMedia'
 
 const Footer = () => {
   return (
-    <footer className="min-w-7xl w-full bg-[url('/footer-grid.svg')]" id='contact'>
+    <footer className="min-w-7xl w-full bg-[url('/footer-grid.svg')] text-center" id='contact'>
         <div className='m-auto flex flex-col gap-3 items-center pt-20'>
             <h1 className='text-3xl font-bold font-sans '>Lets bring your <span className='text-purple text-pretty'>Idea</span> into life!</h1>
             <p className='font-extralight text-sm'>React out to me lets discuss the idea and lets start the action!</p>
