@@ -8,9 +8,9 @@ import MagicButton from "./ui/MagicButton";
 export function MyApproach() {
   return (
     <>
-        <h1 className="text-3xl font-bold font-sans tracking-wide mt-10">My <span className="text-purple">Approach</span></h1>
+        <h1 className="text-3xl font-bold font-sans tracking-wide my-10">My <span className="text-purple">Approach</span></h1>
 
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black-100 max-w-7xl w-full gap-4 mx-auto">
+      <div className="py-20 lg:flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black-100 max-w-7xl w-full gap-4 mx-auto hidden ">
         <Card title="Planning & Strategy" buttonText="Phase 1" desc="We'll collaborate to map out your website goals, target audience, and key functionalities.We'll discuss about the things such as site structure and content requirements etc.">
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -37,6 +37,20 @@ export function MyApproach() {
             colors={[[125, 211, 252]]}
           />
         </Card>
+      </div>
+      <div className="lg:hidden flex flex-col gap-8 text-center">
+            <div className="h-[500px] bg-black flex flex-col gap-3 items-center justify-center border-purple rounded-full border-4">
+              <h1 className="text-2xl font-bold font-sans">Planning & Strategy</h1>
+              <p className="text-xs font-light text-center max-w-xl">We{"'"}ll collaborate to map out your website goals, target audience, and key functionalities.We{"'"}ll discuss about the things such as site structure and content requirements etc.</p>
+            </div>
+            <div className="h-[500px] bg-black flex flex-col gap-3 items-center justify-center border-purple rounded-full border-4">
+              <h1 className="text-2xl font-bold font-sans">Development & Progress Update</h1>
+              <p className="text-xs font-light text-center max-w-xl">Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.</p>
+            </div>
+            <div className="h-[500px] bg-black flex flex-col gap-3 items-center justify-center border-purple rounded-full border-4">
+              <h1 className="text-2xl font-bold font-sans">Development & Launch</h1>
+              <p className="text-xs font-light text-center max-w-xl">In this phase i will bring the design into life by using different technologies based on your requirements.</p>
+            </div>
       </div>
     </>
   );
