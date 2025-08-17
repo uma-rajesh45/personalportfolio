@@ -20,7 +20,7 @@ export function SocialMedia() {
       icon: (
         <CiLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.linkedin.com/in/uma-rajesh-b4324424a/",
+      href: "https://www.linkedin.com/in/uma-rajesh-suda-b4324424a/",
     },
 
     {
